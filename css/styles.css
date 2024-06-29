@@ -4,7 +4,9 @@ body {
   background-color: #ffffff;
 }
 
-h1 h2 h3 {
+h1,
+h2,
+h3 {
   margin: 0 0 0 0;
 }
 
@@ -24,8 +26,6 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  padding: 24px 0;
 }
 
 .container {
@@ -59,6 +59,7 @@ img {
   color: #2e2f42;
   font-weight: 500;
   padding: 24px 0;
+  display: block;
 }
 
 .navigation:hover,
@@ -129,6 +130,7 @@ img {
   display: flex;
   align-items: center;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button {
